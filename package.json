@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:elements": "ng build my-element --prod --output-hashing none && node build-script.js"
+    "build:elements": "ng build my-element --prod --output-hashing none && node build-script.js",
+    "build:header-element": "ng build header-element --prod --output-hashing none && node projects/header-element/build-script.js"
   },
   "private": true,
   "dependencies": {
