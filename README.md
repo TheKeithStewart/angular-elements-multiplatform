@@ -2,6 +2,10 @@
 
 This project shows how to use create custom elements using Angular Elements and use them in Angular, React, Vue.js, and vanilla JS applications.
 
+### Setup
+
+Simple run `npm install` or `yarn` from the root directory and the dependencies for the main project and all the demo apps will be installed.
+
 ### Building Angular Element
 
 To build the Angular Elements projects run the following command:
