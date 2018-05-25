@@ -1,27 +1,33 @@
 # AngularElementsMultiplatform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+This project shows how to use create custom elements using Angular Elements and use them in Angular, React, Vue.js, and vanilla JS applications.
 
-## Development server
+### Building Angular Element
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+To build the Angular Elements projects run the following command:
 
-## Code scaffolding
+```sh
+npm run build:elements
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This will build the projects that contain Angular Elements and place the built scripts into the appropriate folder in the demo applications.
 
-## Build
+### Running the demo applications
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Vanilla JS:
 
-## Running unit tests
+```sh
+npm run start:vanilla
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+React:
 
-## Running end-to-end tests
+```sh
+npm run start:react
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Vue.js
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```sh
+npm run start:vue
+```
